@@ -48,8 +48,8 @@
     background-color: var(--lasurite);
     width: 4px;
     height: 32px;
-    border-top-right-radius:5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius:50px;
+    border-bottom-right-radius: 50px;
     position: absolute;
     left: -24px;
     top: -5px;
@@ -57,5 +57,5 @@
 
 .switch-lang__lang:hover {
     color:#7E7E82 ;
-    transition-duration: 0,2s;
+    transition-duration: 0.3s;
 }
