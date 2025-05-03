@@ -17,7 +17,7 @@
 }
 
 .read-next::before {
-    content: url(/icons/read-next-button.svg);
+    content: url(icons/read-next-button.svg);
     position: absolute;
     left: -20%;
 }
