@@ -1,0 +1,26 @@
+.main-menu__list {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content:flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.main-menu__item {
+    padding: 8px 16px;
+}
+
+.main-menu__item:hover {
+    border-radius: 6px;
+    outline: 2px solid #B8FFEC;
+    outline-offset: -2px;
+    background-color: #fff;
+}
+
+@media (min-width:1440px){
+    .main-menu__item {
+        padding: 9px 22px;
+        flex-wrap: wrap;
+    }
+}

@@ -17,6 +17,17 @@ html{
 body{
     overflow: hidden;
     font-family: 'TTLakes-regular',  sans-serif;
+    background-color:#F8F8F8;
+}
+
+main {
+    width: 100%;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    
 }
 
 .burger-menu {
@@ -24,4 +35,21 @@ body{
     font-family: 'TTLakes-regular',  sans-serif;
 }
 
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-container {
+    width: 100%;
+    position: relative;
+}
+
+.main-menu__list::-webkit-scrollbar{
+    display: none;
+  }
+
+  html::-webkit-scrollbar{
+    display: block;
+  }
 
