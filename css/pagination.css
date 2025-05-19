@@ -1,0 +1,32 @@
+.pagination-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.pagination-button:hover {
+    background-color: #B5B6BC;
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+.pagination-item {
+    display: flex;
+}
+
+.pagination-button {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: #DDD;
+}
+
+@media (min-width: 768px) {
+    .pagination-list {
+        display: none;
+    }
+}

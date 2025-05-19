@@ -1,15 +1,14 @@
 main {
-    padding: 0 16px;
+    padding: 0;
 }
 @media (min-width:1440px) {
-
-    /* h1 {
-        position: absolute;
-        top: 40px;
-    } */
-
+    
     .content-container {
         padding: 42px 35px;
+    }
+
+    main {
+        padding: 0;
     }
     
 }

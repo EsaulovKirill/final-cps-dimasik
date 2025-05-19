@@ -1,0 +1,51 @@
+.brands {
+    margin-bottom: 32px;
+}
+
+.brands-container {
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    column-gap: 24px;
+    row-gap: 16px;
+    overflow-x: auto;
+    margin-bottom: 24px;
+}
+
+.read-next {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .brands-container {
+        flex-wrap: wrap;
+        margin: 16px 24px;
+    }
+
+    .brands-container__button {
+        width: 224px;
+    }
+
+    .button-icon--VSonic, .button-icon--sony {
+        display: none;
+    }
+    .read-next {
+        display: inline;
+    }
+}
+
+@media (min-width: 1440px) {
+    .brands-container {
+        margin: 24px 0;
+        justify-content: space-between;
+    }
+    .brands-container__button {
+        width: 240px;
+    }
+    .button-icon--VSonic, .button-icon--sony {
+        display: flex;
+    }
+}

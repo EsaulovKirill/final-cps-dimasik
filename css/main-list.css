@@ -1,10 +1,10 @@
 .main-menu__list {
     display: flex;
     align-items: center;
-    display: flex;
     justify-content:flex-start;
     overflow-x: auto;
     white-space: nowrap;
+    padding: 0 16px;
 }
 
 .main-menu__item {
@@ -18,9 +18,19 @@
     background-color: #fff;
 }
 
+@media (min-width:768px) {
+    .main-menu__list {
+        padding: 0 24px;
+    }
+}
+
 @media (min-width:1440px){
     .main-menu__item {
-        padding: 9px 22px;
+        padding: 8px 21px;
+    }
+
+    .main-menu__list {
+        padding: 0;
         flex-wrap: wrap;
     }
 }
